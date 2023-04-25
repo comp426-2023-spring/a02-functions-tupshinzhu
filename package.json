@@ -1,0 +1,30 @@
+{
+  "name": "a02-functions-tupshinzhu",
+  "version": "1.0.0",
+  "description": "Assignment 02",
+  "main": "index.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/comp426-2023-spring/a02-functions-tupshinzhu.git"
+  },
+  "keywords": [
+    "functions"
+  ],
+  "author": "tupshinzhu",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a02-functions-tupshinzhu/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a02-functions-tupshinzhu#readme",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "moment-timezone": "^0.5.40",
+    "node-fetch": "^3.3.0"
+  },
+"bin": {
+  "galosh.js": "./cli.js"
+}
+}
